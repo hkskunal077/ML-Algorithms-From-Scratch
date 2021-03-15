@@ -2,3 +2,10 @@ K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on 
 K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.
 K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
 K-NN algorithm can be used for Regression as well as for Classification but mostly it is used for the Classification problems.
+
+
+Coded the kNN algorithm from scratch in Python, Upon requirements of a prediction, the k-most similar records to a new record from the training dataset are then located.
+
+Steps include -- Calculating Euclidean Distance, getting nearest neighbours and making a prediciton.
+
+Dataset Used -- Iris Flower Dataset
