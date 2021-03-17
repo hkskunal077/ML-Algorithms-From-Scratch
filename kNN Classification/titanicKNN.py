@@ -167,8 +167,8 @@ def titanicKNN():
                         data['gender'][i], data['survived'][i],
                         data['name'][i])
           examples.append(p)
-          print("Finished Processing ", len(examples), " passengers\n")
-          return examples
+      print("Finished Processing ", len(examples), " passengers\n")
+      return examples
 
 
   examples = buildTitanicExamples('TitanicPassengers.txt')
@@ -266,7 +266,7 @@ def titanicKNN():
           numMatch = 0
           for i in range(len(nearest)):
               if nearest[i].getLabel() == label:
-                  numMatches += 1
+                  numMatch += 1
           if numMatch > k//2:
               if testCase.getLabel() == label:
                   truePos += 1
